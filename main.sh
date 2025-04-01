@@ -13,7 +13,7 @@ while true; do
     case $opcion in
         1) bash scripts/usuarios.sh ;;
         2) bash scripts/logs.sh ;;
-        3) echo "Backup no implementado aún" ;;
+        3) bash scripts/backup.sh ;;
         4) df -h ;;
         5) echo "Limpieza no implementada aún" ;;
         6) exit 0 ;;
