@@ -1,0 +1,6 @@
+Usuario: auditor1_v3
+Grupos: auditor1_v3 : auditor1_v3
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------

@@ -1,0 +1,6 @@
+Usuario: tecnico1_v3
+Grupos: tecnico1_v3 : tecnico1_v3 tecnicos
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
