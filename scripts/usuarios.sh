@@ -6,16 +6,16 @@ log_actividad() {
 }
 
 # Crear grupos
-log_actividad "Creando grupos administracion_v5 y tecnicos_v5."
-groupadd administracion_v5
-groupadd tecnicos_v5
+log_actividad "Creando grupos administracion_v6 y tecnicos_v6."
+groupadd administracion_v6
+groupadd tecnicos_v6
 log_actividad "Grupos creados correctamente."
 
 # Crear usuarios y asignarlos a grupos
-log_actividad "Creando usuarios admin1_v5, tecnico1_v5, auditor1_v5 y asignando a sus grupos."
-useradd -m -G administracion admin1_v5
-useradd -m -G tecnicos tecnico1_v5
-useradd -m auditor1_v5
+log_actividad "Creando usuarios admin1_v6, tecnico1_v6, auditor1_v6 y asignando a sus grupos."
+useradd -m -G administracion admin1_v6
+useradd -m -G tecnicos tecnico1_v6
+useradd -m auditor1_v6
 log_actividad "Usuarios creados correctamente."
 
 # Crear directorios
@@ -31,9 +31,9 @@ chmod +t /tmp/empresa/compartido    # Sticky Bit
 log_actividad "Permisos especiales aplicados correctamente."
 
 # Dar acceso a auditor1 con ACL
-log_actividad "Asignando permisos ACL a auditor1_5 sobre /tmp/empresa/admin."
-setfacl -m u:auditor1_v5:r /tmp/empresa/admin
-log_actividad "Permisos ACL asignados a auditor1_v5."
+log_actividad "Asignando permisos ACL a auditor1_v6 sobre /tmp/empresa/admin."
+setfacl -m u:auditor1_v6:r /tmp/empresa/admin
+log_actividad "Permisos ACL asignados a auditor1_v6."
 
 # Crear archivos de información sobre los usuarios en la carpeta usuarios/
 mkdir -p usuarios
@@ -59,9 +59,9 @@ guardar_info_usuario() {
 
 # Guardar información de los usuarios creados
 log_actividad "Guardando información sobre los usuarios."
-guardar_info_usuario "admin1_v5"
-guardar_info_usuario "tecnico1_v5"
-guardar_info_usuario "auditor1_v5"
+guardar_info_usuario "admin1_v6"
+guardar_info_usuario "tecnico1_v6"
+guardar_info_usuario "auditor1_v6"
 log_actividad "Información de los usuarios guardada correctamente."
 
 # Exportar el informe a un archivo de texto
