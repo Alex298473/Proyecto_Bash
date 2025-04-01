@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Crear grupos
-groupadd administracion_v2
-groupadd tecnicos_v2
+groupadd administracion_v3
+groupadd tecnicos_v3
 
 # Crear usuarios y asignarlos a grupos
-useradd -m -G administracion admin1_v2
-useradd -m -G tecnicos tecnico1_v2
-useradd -m auditor1_v2
+useradd -m -G administracion admin1_v3
+useradd -m -G tecnicos tecnico1_v3
+useradd -m auditor1_v3
 
 # Crear directorios
 mkdir -p /tmp/empresa/admin /tmp/empresa/tecnicos /tmp/empresa/compartido
@@ -33,17 +33,17 @@ guardar_info_usuario() {
   echo "Grupos: $(groups $usuario)" >> $archivo
 
 # Guardar permisos sobre los directorios
-  echo "Permisos sobre /tmp/empresa/admin: $(getfacl /tmp/empresa/admin | grep $usuario)" >> $archivo
-  echo "Permisos sobre /tmp/empresa/tecnicos: $(getfacl /tmp/empresa/tecnicos | grep $usuario)" >> $archivo
-  echo "Permisos sobre /tmp/empresa/compartido: $(getfacl /tmp/empresa/compartido | grep $usuario)" >> $archivo
+  echo "Permisos sobre /tmp/empresa/admin: $(getfacl /tmp/empresa/admin | grep $usuario || echo 'Sin permisos específicos')" >> $archivo
+  echo "Permisos sobre /tmp/empresa/tecnicos: $(getfacl /tmp/empresa/tecnicos | grep $usuario || echo 'Sin permisos específicos')" >> $archivo
+  echo "Permisos sobre /tmp/empresa/compartido: $(getfacl /tmp/empresa/compartido | grep $usuario || echo 'Sin permisos específicos')" >> $archivo
 
 # Agregar una línea de separación para que sea más legible
   echo "----------------------------------" >> $archivo
 }
 
 # Guardar información de los usuarios creados
-guardar_info_usuario "admin1_v2"
-guardar_info_usuario "tecnico1_v2"
-guardar_info_usuario "auditor1_v2"
+guardar_info_usuario "admin1_v3"
+guardar_info_usuario "tecnico1_v3"
+guardar_info_usuario "auditor1_v3"
 
 echo "Usuarios y permisos creados correctamente."
