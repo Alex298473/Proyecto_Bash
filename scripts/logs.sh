@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_FILE="logs/eventos.log"
+LOG_FILE="logs/eventos_$(date +%Y%m%d_%H%M%S).log"
 
 # Generar 30 eventos de log
 for i in {1..30}; do
