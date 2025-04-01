@@ -8,7 +8,7 @@ Este proyecto tiene como objetivo la automatización de tareas administrativas e
 Se han desarrollado varios scripts para gestionar usuarios, manejar logs, realizar backups y limpiar archivos temporales.
 
 ## Estructura del proyecto
-
+```
 Proyecto_Bash/
 │── main.sh               # Script principal con menú de opciones
 │── README.md             # Explicación del proyecto
@@ -21,7 +21,7 @@ Proyecto_Bash/
 │── usuarios/             # Información sobre usuarios creados
 │── respaldo/             # Copias de seguridad generadas
 │── informes/             # Carpeta donde se guardarán los archivos .txt generados por los scripts
-
+```
 
 ## Explicación de los Scripts
 
