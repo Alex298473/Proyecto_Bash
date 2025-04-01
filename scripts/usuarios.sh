@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Crear grupos
-groupadd administracion
-groupadd tecnicos
+groupadd administracion_v2
+groupadd tecnicos_v2
 
 # Crear usuarios y asignarlos a grupos
-useradd -m -G administracion admin1
-useradd -m -G tecnicos tecnico1
-useradd -m auditor1
+useradd -m -G administracion admin1_v2
+useradd -m -G tecnicos tecnico1_v2
+useradd -m auditor1_v2
 
 # Crear directorios
 mkdir -p /tmp/empresa/admin /tmp/empresa/tecnicos /tmp/empresa/compartido
@@ -42,8 +42,8 @@ guardar_info_usuario() {
 }
 
 # Guardar información de los usuarios creados
-guardar_info_usuario "admin1"
-guardar_info_usuario "tecnico1"
-guardar_info_usuario "auditor1"
+guardar_info_usuario "admin1_v2"
+guardar_info_usuario "tecnico1_v2"
+guardar_info_usuario "auditor1_v2"
 
 echo "Usuarios y permisos creados correctamente."
