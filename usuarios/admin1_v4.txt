@@ -1,0 +1,6 @@
+Usuario: admin1_v4
+Grupos: admin1_v4 : admin1_v4 administracion
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
