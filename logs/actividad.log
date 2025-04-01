@@ -32,3 +32,37 @@ Tue Apr  1 10:42:13 CEST 2025 - Archivos temporales de más de 7 días eliminado
 Tue Apr  1 10:42:13 CEST 2025 - Informe de limpieza exportado a informes/limpieza_20250401_104213.txt.
 Tue Apr  1 10:42:13 CEST 2025 - Opción 5: Limpiar archivos temporales ejecutada.
 Tue Apr  1 10:42:18 CEST 2025 - Opción 6: Salir ejecutada.
+Tue Apr  1 10:51:20 CEST 2025 - Creando grupos administracion_v6 y tecnicos_v6.
+Tue Apr  1 10:51:20 CEST 2025 - Grupos creados correctamente.
+Tue Apr  1 10:51:20 CEST 2025 - Creando usuarios admin1_v6, tecnico1_v6, auditor1_v6 y asignando a sus grupos.
+Tue Apr  1 10:51:21 CEST 2025 - Usuarios creados correctamente.
+Tue Apr  1 10:51:21 CEST 2025 - Creando directorios /tmp/empresa/admin, /tmp/empresa/tecnicos y /tmp/empresa/compartido.
+Tue Apr  1 10:51:21 CEST 2025 - Directorios creados correctamente.
+Tue Apr  1 10:51:21 CEST 2025 - Aplicando permisos especiales: SetUID, SetGID, Sticky Bit.
+Tue Apr  1 10:51:21 CEST 2025 - Permisos especiales aplicados correctamente.
+Tue Apr  1 10:51:21 CEST 2025 - Asignando permisos ACL a auditor1_v6 sobre /tmp/empresa/admin.
+Tue Apr  1 10:51:21 CEST 2025 - Permisos ACL asignados a auditor1_v6.
+Tue Apr  1 10:51:21 CEST 2025 - Creando carpeta usuarios/ para almacenar la información de los usuarios.
+Tue Apr  1 10:51:21 CEST 2025 - Guardando información sobre los usuarios.
+Tue Apr  1 10:51:21 CEST 2025 - Información de los usuarios guardada correctamente.
+Tue Apr  1 10:51:21 CEST 2025 - Informe de usuarios exportado a informes/usuarios_20250401_105121.txt.
+Tue Apr  1 10:51:21 CEST 2025 - Opción 1: Crear usuarios y permisos ejecutada.
+Tue Apr  1 10:51:28 CEST 2025 - Generando 30 eventos de log y guardándolos en logs/eventos_20250401_105128.log.
+Tue Apr  1 10:51:28 CEST 2025 - Logs generados correctamente en logs/eventos_20250401_105128.log.
+Tue Apr  1 10:51:28 CEST 2025 - Número de errores: 8
+Tue Apr  1 10:51:28 CEST 2025 - Últimos 5 errores: Tue Apr  1 10:51:28 CEST 2025 - EVENTO 19 - ERROR
+Tue Apr  1 10:51:28 CEST 2025 - EVENTO 20 - ERROR
+Tue Apr  1 10:51:28 CEST 2025 - EVENTO 23 - ERROR
+Tue Apr  1 10:51:28 CEST 2025 - EVENTO 24 - ERROR
+Tue Apr  1 10:51:28 CEST 2025 - EVENTO 27 - ERROR
+Tue Apr  1 10:51:28 CEST 2025 - Informe de análisis de logs exportado a informes/analisis_logs_20250401_105128.txt.
+Tue Apr  1 10:51:28 CEST 2025 - Opción 2: Generar y analizar logs ejecutada.
+Tue Apr  1 10:51:32 CEST 2025 - Directorio de respaldo respaldo creado (si no existía).
+Tue Apr  1 10:51:32 CEST 2025 - Backup guardado en respaldo/backup_20250401_105132.tar.gz.
+Tue Apr  1 10:51:32 CEST 2025 - Informe del backup exportado a informes/backup_20250401_105132.txt.
+Tue Apr  1 10:51:32 CEST 2025 - Opción 3: Crear backup ejecutada.
+Tue Apr  1 10:51:36 CEST 2025 - Opción 4: Mostrar espacio en disco ejecutada.
+Tue Apr  1 10:51:43 CEST 2025 - Archivos temporales de más de 7 días eliminados en /tmp/empresa/.
+Tue Apr  1 10:51:43 CEST 2025 - Informe de limpieza exportado a informes/limpieza_20250401_105143.txt.
+Tue Apr  1 10:51:43 CEST 2025 - Opción 5: Limpiar archivos temporales ejecutada.
+Tue Apr  1 10:51:45 CEST 2025 - Opción 6: Salir ejecutada.

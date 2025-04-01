@@ -1,0 +1,91 @@
+Usuarios y permisos creados:
+Usuario: admin1_v2
+Grupos: admin1_v2 : admin1_v2 administracion
+Permisos sobre /tmp/empresa/admin: 
+Permisos sobre /tmp/empresa/tecnicos: 
+Permisos sobre /tmp/empresa/compartido: 
+----------------------------------
+Usuario: admin1_v3
+Grupos: admin1_v3 : admin1_v3 administracion
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
+Usuario: admin1_v4
+Grupos: admin1_v4 : admin1_v4 administracion
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
+Usuario: admin1_v5
+Grupos: admin1_v5 : admin1_v5 administracion
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
+Usuario: admin1_v6
+Grupos: admin1_v6 : admin1_v6 administracion
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
+Usuario: auditor1_v2
+Grupos: auditor1_v2 : auditor1_v2
+Permisos sobre /tmp/empresa/admin: 
+Permisos sobre /tmp/empresa/tecnicos: 
+Permisos sobre /tmp/empresa/compartido: 
+----------------------------------
+Usuario: auditor1_v3
+Grupos: auditor1_v3 : auditor1_v3
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
+Usuario: auditor1_v4
+Grupos: auditor1_v4 : auditor1_v4
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
+Usuario: auditor1_v5
+Grupos: auditor1_v5 : auditor1_v5
+Permisos sobre /tmp/empresa/admin: user:auditor1_v5:r--
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
+Usuario: auditor1_v6
+Grupos: auditor1_v6 : auditor1_v6
+Permisos sobre /tmp/empresa/admin: user:auditor1_v6:r--
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
+Usuario: tecnico1_v2
+Grupos: tecnico1_v2 : tecnico1_v2 tecnicos
+Permisos sobre /tmp/empresa/admin: 
+Permisos sobre /tmp/empresa/tecnicos: 
+Permisos sobre /tmp/empresa/compartido: 
+----------------------------------
+Usuario: tecnico1_v3
+Grupos: tecnico1_v3 : tecnico1_v3 tecnicos
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
+Usuario: tecnico1_v4
+Grupos: tecnico1_v4 : tecnico1_v4 tecnicos
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
+Usuario: tecnico1_v5
+Grupos: tecnico1_v5 : tecnico1_v5 tecnicos
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
+Usuario: tecnico1_v6
+Grupos: tecnico1_v6 : tecnico1_v6 tecnicos
+Permisos sobre /tmp/empresa/admin: Sin permisos específicos
+Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
+Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
+----------------------------------
