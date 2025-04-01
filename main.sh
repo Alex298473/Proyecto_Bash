@@ -15,7 +15,7 @@ while true; do
         2) bash scripts/logs.sh ;;
         3) bash scripts/backup.sh ;;
         4) df -h ;;
-        5) echo "Limpieza no implementada aún" ;;
+        5) bash scripts/limpieza.sh ;;
         6) exit 0 ;;
         *) echo "Opción inválida" ;;
     esac
