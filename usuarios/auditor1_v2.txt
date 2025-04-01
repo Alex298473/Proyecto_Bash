@@ -1,6 +1,0 @@
-Usuario: auditor1_v2
-Grupos: auditor1_v2 : auditor1_v2
-Permisos sobre /tmp/empresa/admin: 
-Permisos sobre /tmp/empresa/tecnicos: 
-Permisos sobre /tmp/empresa/compartido: 
-----------------------------------

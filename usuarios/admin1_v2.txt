@@ -1,6 +1,0 @@
-Usuario: admin1_v2
-Grupos: admin1_v2 : admin1_v2 administracion
-Permisos sobre /tmp/empresa/admin: 
-Permisos sobre /tmp/empresa/tecnicos: 
-Permisos sobre /tmp/empresa/compartido: 
-----------------------------------

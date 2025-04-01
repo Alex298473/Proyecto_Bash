@@ -1,6 +1,0 @@
-Usuario: auditor1_v5
-Grupos: auditor1_v5 : auditor1_v5
-Permisos sobre /tmp/empresa/admin: user:auditor1_v5:r--
-Permisos sobre /tmp/empresa/tecnicos: Sin permisos específicos
-Permisos sobre /tmp/empresa/compartido: Sin permisos específicos
-----------------------------------

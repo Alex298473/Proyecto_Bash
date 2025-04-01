@@ -1,3 +1,0 @@
-Backup realizado con éxito.
-Directorio respaldado: /tmp/empresa/
-Archivo de backup guardado en: respaldo/backup_20250401_105132.tar.gz

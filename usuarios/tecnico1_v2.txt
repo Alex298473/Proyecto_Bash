@@ -1,6 +1,0 @@
-Usuario: tecnico1_v2
-Grupos: tecnico1_v2 : tecnico1_v2 tecnicos
-Permisos sobre /tmp/empresa/admin: 
-Permisos sobre /tmp/empresa/tecnicos: 
-Permisos sobre /tmp/empresa/compartido: 
-----------------------------------
