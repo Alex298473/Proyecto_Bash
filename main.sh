@@ -11,13 +11,39 @@ while true; do
     read -p "Seleccione una opción: " opcion
 
     case $opcion in
-        1) bash scripts/usuarios.sh ;;
-        2) bash scripts/logs.sh ;;
-        3) bash scripts/backup.sh ;;
-        4) df -h ;;
-        5) bash scripts/limpieza.sh ;;
-        6) exit 0 ;;
-        *) echo "Opción inválida" ;;
+        1)
+            bash scripts/usuarios.sh
+            # Registro de acción
+            echo "$(date) - Opción 1: Crear usuarios y permisos ejecutada." >> logs/actividad.log
+            ;;
+        2)
+            bash scripts/logs.sh
+            # Registro de acción
+            echo "$(date) - Opción 2: Generar y analizar logs ejecutada." >> logs/actividad.log
+            ;;
+        3)
+            bash scripts/backup.sh
+            # Registro de acción
+            echo "$(date) - Opción 3: Crear backup ejecutada." >> logs/actividad.log
+            ;;
+        4)
+            df -h
+            # Registro de acción
+            echo "$(date) - Opción 4: Mostrar espacio en disco ejecutada." >> logs/actividad.log
+            ;;
+        5)
+            bash scripts/limpieza.sh
+            # Registro de acción
+            echo "$(date) - Opción 5: Limpiar archivos temporales ejecutada." >> logs/actividad.log
+            ;;
+        6)
+            echo "$(date) - Opción 6: Salir ejecutada." >> logs/actividad.log
+            exit 0
+            ;;
+        *)
+            echo "Opción inválida"
+            echo "$(date) - Opción inválida seleccionada." >> logs/actividad.log
+            ;;
     esac
 
     read -p "Presione Enter para continuar..."

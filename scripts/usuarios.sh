@@ -1,27 +1,43 @@
 #!/bin/bash
 
+# Función para registrar acciones en actividad.log
+log_actividad() {
+  echo "$(date) - $1" >> logs/actividad.log
+}
+
 # Crear grupos
-groupadd administracion_v4
-groupadd tecnicos_v4
+log_actividad "Creando grupos administracion_v5 y tecnicos_v5."
+groupadd administracion_v5
+groupadd tecnicos_v5
+log_actividad "Grupos creados correctamente."
 
 # Crear usuarios y asignarlos a grupos
-useradd -m -G administracion admin1_v4
-useradd -m -G tecnicos tecnico1_v4
-useradd -m auditor1_v4
+log_actividad "Creando usuarios admin1_v5, tecnico1_v5, auditor1_v5 y asignando a sus grupos."
+useradd -m -G administracion admin1_v5
+useradd -m -G tecnicos tecnico1_v5
+useradd -m auditor1_v5
+log_actividad "Usuarios creados correctamente."
 
 # Crear directorios
+log_actividad "Creando directorios /tmp/empresa/admin, /tmp/empresa/tecnicos y /tmp/empresa/compartido."
 mkdir -p /tmp/empresa/admin /tmp/empresa/tecnicos /tmp/empresa/compartido
+log_actividad "Directorios creados correctamente."
 
 # Aplicar permisos especiales
+log_actividad "Aplicando permisos especiales: SetUID, SetGID, Sticky Bit."
 chmod u+s /tmp/empresa/admin        # SetUID
 chmod g+s /tmp/empresa/tecnicos     # SetGID
 chmod +t /tmp/empresa/compartido    # Sticky Bit
+log_actividad "Permisos especiales aplicados correctamente."
 
 # Dar acceso a auditor1 con ACL
-setfacl -m u:auditor1:r /tmp/empresa/admin
+log_actividad "Asignando permisos ACL a auditor1_5 sobre /tmp/empresa/admin."
+setfacl -m u:auditor1_v5:r /tmp/empresa/admin
+log_actividad "Permisos ACL asignados a auditor1_v5."
 
 # Crear archivos de información sobre los usuarios en la carpeta usuarios/
 mkdir -p usuarios
+log_actividad "Creando carpeta usuarios/ para almacenar la información de los usuarios."
 
 # Función para guardar información de cada usuario
 guardar_info_usuario() {
@@ -42,8 +58,16 @@ guardar_info_usuario() {
 }
 
 # Guardar información de los usuarios creados
-guardar_info_usuario "admin1_v4"
-guardar_info_usuario "tecnico1_v4"
-guardar_info_usuario "auditor1_v4"
+log_actividad "Guardando información sobre los usuarios."
+guardar_info_usuario "admin1_v5"
+guardar_info_usuario "tecnico1_v5"
+guardar_info_usuario "auditor1_v5"
+log_actividad "Información de los usuarios guardada correctamente."
+
+# Exportar el informe a un archivo de texto
+INFORME_FILE="informes/usuarios_$(date +%Y%m%d_%H%M%S).txt"
+echo "Usuarios y permisos creados:" > $INFORME_FILE
+cat usuarios/*.txt >> $INFORME_FILE
+log_actividad "Informe de usuarios exportado a $INFORME_FILE."
 
 echo "Usuarios y permisos creados correctamente."
